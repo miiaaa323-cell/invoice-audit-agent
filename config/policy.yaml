@@ -1,0 +1,10 @@
+currency: CNY
+rounding_tolerance: "1.00"
+line_amount_tolerance: "0.01"
+level2_threshold: "50000.00"
+confidence_threshold: 0.85
+max_info_rounds: 2
+variance_account: ROUNDING_VARIANCE
+company:
+  buyer_name: "示例科技有限公司"
+  buyer_tax_id: "91310000MA1FL0000X"
