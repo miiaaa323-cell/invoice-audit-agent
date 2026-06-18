@@ -12,7 +12,9 @@ def test_money_rounds_half_up_and_preserves_price_precision():
     assert q2("1.005") == Decimal("1.01")
     assert q2("-1.005") == Decimal("-1.01")
     assert line_amount(Decimal("1.0001"), Decimal("1000")) == Decimal("1000.10")
-    assert InvoiceLine(line_no=1, unit_price_excl_tax="1.0001").unit_price_excl_tax == Decimal("1.0001")
+    assert InvoiceLine(line_no=1, unit_price_excl_tax="1.0001").unit_price_excl_tax == Decimal(
+        "1.0001"
+    )
 
 
 def test_policy_loads_decimal_thresholds():

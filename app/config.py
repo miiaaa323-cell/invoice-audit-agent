@@ -23,9 +23,11 @@ class Policy(BaseModel):
     confidence_threshold: float = Field(default=0.85, ge=0, le=1)
     max_info_rounds: int = Field(default=2, ge=0)
     variance_account: str = "ROUNDING_VARIANCE"
-    company: CompanyProfile = Field(default_factory=lambda: CompanyProfile(
-        buyer_name="示例科技有限公司", buyer_tax_id="91310000MA1FL0000X"
-    ))
+    company: CompanyProfile = Field(
+        default_factory=lambda: CompanyProfile(
+            buyer_name="示例科技有限公司", buyer_tax_id="91310000MA1FL0000X"
+        )
+    )
 
 
 def load_policy(path: Path | str = ROOT / "config/policy.yaml") -> Policy:
