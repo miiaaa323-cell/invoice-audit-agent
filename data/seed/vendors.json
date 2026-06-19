@@ -1,0 +1,74 @@
+[
+  {
+    "vendor_id": "V001",
+    "vendor_name": "华新采购供应商01有限公司",
+    "tax_id": "91310000VD00000001",
+    "status": "active"
+  },
+  {
+    "vendor_id": "V002",
+    "vendor_name": "华新采购供应商02有限公司",
+    "tax_id": "91310000VD00000002",
+    "status": "active"
+  },
+  {
+    "vendor_id": "V003",
+    "vendor_name": "华新采购供应商03有限公司",
+    "tax_id": "91310000VD00000003",
+    "status": "active"
+  },
+  {
+    "vendor_id": "V004",
+    "vendor_name": "华新采购供应商04有限公司",
+    "tax_id": "91310000VD00000004",
+    "status": "active"
+  },
+  {
+    "vendor_id": "V005",
+    "vendor_name": "华新采购供应商05有限公司",
+    "tax_id": "91310000VD00000005",
+    "status": "active"
+  },
+  {
+    "vendor_id": "V006",
+    "vendor_name": "华新采购供应商06有限公司",
+    "tax_id": "91310000VD00000006",
+    "status": "active"
+  },
+  {
+    "vendor_id": "V007",
+    "vendor_name": "华新采购供应商07有限公司",
+    "tax_id": "91310000VD00000007",
+    "status": "active"
+  },
+  {
+    "vendor_id": "V008",
+    "vendor_name": "华新采购供应商08有限公司",
+    "tax_id": "91310000VD00000008",
+    "status": "active"
+  },
+  {
+    "vendor_id": "V009",
+    "vendor_name": "华新采购供应商09有限公司",
+    "tax_id": "91310000VD00000009",
+    "status": "active"
+  },
+  {
+    "vendor_id": "V010",
+    "vendor_name": "华新采购供应商10有限公司",
+    "tax_id": "91310000VD00000010",
+    "status": "active"
+  },
+  {
+    "vendor_id": "V011",
+    "vendor_name": "华新采购供应商11有限公司",
+    "tax_id": "91310000VD00000011",
+    "status": "active"
+  },
+  {
+    "vendor_id": "V012",
+    "vendor_name": "华新采购供应商12有限公司",
+    "tax_id": "91310000VD00000012",
+    "status": "blocked"
+  }
+]

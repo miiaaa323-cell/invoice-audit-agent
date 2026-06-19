@@ -1,0 +1,8242 @@
+[
+  {
+    "po_number": "PO-2026-0001",
+    "vendor_id": "V001",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "16.0353",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "24.2742",
+        "tax_rate": "0.13"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0002",
+    "vendor_id": "V002",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "37.8020",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "20.8231",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "20.0756",
+        "tax_rate": "0.06"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0003",
+    "vendor_id": "V003",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "28.2357",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "27.9822",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "19.3716",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "30.0471",
+        "tax_rate": "0.06"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0004",
+    "vendor_id": "V004",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "14.9451",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "10.7258",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "15.2076",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "38.4435",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 5,
+        "sku": "SKU-005",
+        "description": "采购物料05",
+        "quantity": "100",
+        "unit_price_excl_tax": "11.7359",
+        "tax_rate": "0.06"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0005",
+    "vendor_id": "V005",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "11.4955",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "16.4716",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "37.7797",
+        "tax_rate": "0.09"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0006",
+    "vendor_id": "V006",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "37.7891",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "14.6461",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "24.70",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "23.180",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 5,
+        "sku": "SKU-005",
+        "description": "采购物料05",
+        "quantity": "100",
+        "unit_price_excl_tax": "30.3550",
+        "tax_rate": "0.09"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0007",
+    "vendor_id": "V007",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "35.5687",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "15.0972",
+        "tax_rate": "0.13"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0008",
+    "vendor_id": "V008",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "17.7169",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "28.387",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "28.0707",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "26.68",
+        "tax_rate": "0.06"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0009",
+    "vendor_id": "V009",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "13.4494",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "26.5942",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "10.7063",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "25.5188",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 5,
+        "sku": "SKU-005",
+        "description": "采购物料05",
+        "quantity": "100",
+        "unit_price_excl_tax": "14.6971",
+        "tax_rate": "0.09"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0010",
+    "vendor_id": "V010",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "32.5190",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "13.4160",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "37.569",
+        "tax_rate": "0.06"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0011",
+    "vendor_id": "V011",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "30.3185",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "30.8112",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "37.9244",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "17.6131",
+        "tax_rate": "0.06"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0012",
+    "vendor_id": "V001",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "13.1793",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "38.3273",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "39.64",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "28.507",
+        "tax_rate": "0.06"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0013",
+    "vendor_id": "V002",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "25.4244",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "15.9114",
+        "tax_rate": "0.13"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0014",
+    "vendor_id": "V003",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "10.2662",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "15.2937",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "28.3397",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "35.13",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 5,
+        "sku": "SKU-005",
+        "description": "采购物料05",
+        "quantity": "100",
+        "unit_price_excl_tax": "10.374",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 6,
+        "sku": "SKU-006",
+        "description": "采购物料06",
+        "quantity": "100",
+        "unit_price_excl_tax": "20.2064",
+        "tax_rate": "0.06"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0015",
+    "vendor_id": "V004",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "34.5574",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "38.7374",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "39.46",
+        "tax_rate": "0.13"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0016",
+    "vendor_id": "V005",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "28.9907",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "24.58",
+        "tax_rate": "0.06"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0017",
+    "vendor_id": "V006",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "31.1980",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "37.7522",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "39.7338",
+        "tax_rate": "0.09"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0018",
+    "vendor_id": "V007",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "36.2921",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "18.3429",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "15.87",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "23.226",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 5,
+        "sku": "SKU-005",
+        "description": "采购物料05",
+        "quantity": "100",
+        "unit_price_excl_tax": "25.8176",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 6,
+        "sku": "SKU-006",
+        "description": "采购物料06",
+        "quantity": "100",
+        "unit_price_excl_tax": "25.47",
+        "tax_rate": "0.13"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0019",
+    "vendor_id": "V008",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "26.9999",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "26.0093",
+        "tax_rate": "0.06"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0020",
+    "vendor_id": "V009",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "11.8303",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "21.836",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "12.6326",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "28.30",
+        "tax_rate": "0.09"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0021",
+    "vendor_id": "V010",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "392.540",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "398.0764",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "329.72",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "373.490",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 5,
+        "sku": "SKU-005",
+        "description": "采购物料05",
+        "quantity": "100",
+        "unit_price_excl_tax": "402.6359",
+        "tax_rate": "0.13"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0022",
+    "vendor_id": "V011",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "435.8629",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "432.55",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "387.868",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "332.5266",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 5,
+        "sku": "SKU-005",
+        "description": "采购物料05",
+        "quantity": "100",
+        "unit_price_excl_tax": "307.96",
+        "tax_rate": "0.13"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0023",
+    "vendor_id": "V001",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "314.28",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "329.689",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "357.9459",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "406.82",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 5,
+        "sku": "SKU-005",
+        "description": "采购物料05",
+        "quantity": "100",
+        "unit_price_excl_tax": "413.122",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 6,
+        "sku": "SKU-006",
+        "description": "采购物料06",
+        "quantity": "100",
+        "unit_price_excl_tax": "352.0102",
+        "tax_rate": "0.06"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0024",
+    "vendor_id": "V002",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "308.821",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "437.3896",
+        "tax_rate": "0.06"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0025",
+    "vendor_id": "V003",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "362.1635",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "307.57",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "351.498",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "318.5654",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 5,
+        "sku": "SKU-005",
+        "description": "采购物料05",
+        "quantity": "100",
+        "unit_price_excl_tax": "334.57",
+        "tax_rate": "0.09"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0026",
+    "vendor_id": "V004",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "407.42",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "398.017",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "337.6723",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "315.32",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 5,
+        "sku": "SKU-005",
+        "description": "采购物料05",
+        "quantity": "100",
+        "unit_price_excl_tax": "336.442",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 6,
+        "sku": "SKU-006",
+        "description": "采购物料06",
+        "quantity": "100",
+        "unit_price_excl_tax": "396.2265",
+        "tax_rate": "0.13"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0027",
+    "vendor_id": "V005",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "406.122",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "308.9881",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "356.85",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "435.578",
+        "tax_rate": "0.06"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0028",
+    "vendor_id": "V006",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "314.2273",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "448.66",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "358.973",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "348.2415",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 5,
+        "sku": "SKU-005",
+        "description": "采购物料05",
+        "quantity": "100",
+        "unit_price_excl_tax": "302.63",
+        "tax_rate": "0.09"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0029",
+    "vendor_id": "V007",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "332.89",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "337.147",
+        "tax_rate": "0.09"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0030",
+    "vendor_id": "V008",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "316.172",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "444.3082",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "384.47",
+        "tax_rate": "0.13"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0031",
+    "vendor_id": "V009",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "416.5618",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "415.94",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "375.409",
+        "tax_rate": "0.13"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0032",
+    "vendor_id": "V010",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "447.97",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "366.007",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "303.1078",
+        "tax_rate": "0.13"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0033",
+    "vendor_id": "V011",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "449.642",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "333.5162",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "367.36",
+        "tax_rate": "0.13"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0034",
+    "vendor_id": "V001",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "405.0515",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "436.77",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "411.757",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "377.7145",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 5,
+        "sku": "SKU-005",
+        "description": "采购物料05",
+        "quantity": "100",
+        "unit_price_excl_tax": "407.48",
+        "tax_rate": "0.09"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0035",
+    "vendor_id": "V002",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "397.74",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "368.549",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "314.3589",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "315.42",
+        "tax_rate": "0.09"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0036",
+    "vendor_id": "V003",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "394.032",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "370.9523",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "316.16",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "376.671",
+        "tax_rate": "0.13"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0037",
+    "vendor_id": "V004",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "317.1013",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "352.75",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "392.245",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "389.2151",
+        "tax_rate": "0.09"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0038",
+    "vendor_id": "V005",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "425.85",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "422.099",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "347.5142",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "342.55",
+        "tax_rate": "0.09"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0039",
+    "vendor_id": "V006",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "381.202",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "346.0413",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "333.96",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "360.461",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 5,
+        "sku": "SKU-005",
+        "description": "采购物料05",
+        "quantity": "100",
+        "unit_price_excl_tax": "345.0382",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 6,
+        "sku": "SKU-006",
+        "description": "采购物料06",
+        "quantity": "100",
+        "unit_price_excl_tax": "399.82",
+        "tax_rate": "0.09"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0040",
+    "vendor_id": "V007",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "352.2633",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "301.34",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "445.234",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "319.1297",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 5,
+        "sku": "SKU-005",
+        "description": "采购物料05",
+        "quantity": "100",
+        "unit_price_excl_tax": "430.00",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 6,
+        "sku": "SKU-006",
+        "description": "采购物料06",
+        "quantity": "100",
+        "unit_price_excl_tax": "417.120",
+        "tax_rate": "0.09"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0041",
+    "vendor_id": "V008",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "392.45",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "376.798",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "360.4813",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "421.75",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 5,
+        "sku": "SKU-005",
+        "description": "采购物料05",
+        "quantity": "100",
+        "unit_price_excl_tax": "316.379",
+        "tax_rate": "0.09"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0042",
+    "vendor_id": "V009",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "352.859",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "411.4830",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "422.80",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "346.103",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 5,
+        "sku": "SKU-005",
+        "description": "采购物料05",
+        "quantity": "100",
+        "unit_price_excl_tax": "431.3869",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 6,
+        "sku": "SKU-006",
+        "description": "采购物料06",
+        "quantity": "100",
+        "unit_price_excl_tax": "328.33",
+        "tax_rate": "0.09"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0043",
+    "vendor_id": "V010",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "308.5571",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "351.04",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "402.295",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "318.7060",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 5,
+        "sku": "SKU-005",
+        "description": "采购物料05",
+        "quantity": "100",
+        "unit_price_excl_tax": "436.70",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 6,
+        "sku": "SKU-006",
+        "description": "采购物料06",
+        "quantity": "100",
+        "unit_price_excl_tax": "424.276",
+        "tax_rate": "0.06"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0044",
+    "vendor_id": "V011",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "358.94",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "433.259",
+        "tax_rate": "0.06"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0045",
+    "vendor_id": "V001",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "349.682",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "412.4800",
+        "tax_rate": "0.09"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0046",
+    "vendor_id": "V002",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "39.6554",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "39.23",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "13.988",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "22.8929",
+        "tax_rate": "0.09"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0047",
+    "vendor_id": "V003",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "22.66",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "20.783",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "39.0795",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "20.33",
+        "tax_rate": "0.13"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0048",
+    "vendor_id": "V004",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "11.726",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "36.9271",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "28.19",
+        "tax_rate": "0.06"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0049",
+    "vendor_id": "V005",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "24.6442",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "20.54",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "32.273",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "33.5030",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 5,
+        "sku": "SKU-005",
+        "description": "采购物料05",
+        "quantity": "100",
+        "unit_price_excl_tax": "14.96",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 6,
+        "sku": "SKU-006",
+        "description": "采购物料06",
+        "quantity": "100",
+        "unit_price_excl_tax": "26.070",
+        "tax_rate": "0.09"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0050",
+    "vendor_id": "V006",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "13.63",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "15.336",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "31.7538",
+        "tax_rate": "0.13"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0051",
+    "vendor_id": "V007",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "29.322",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "15.8774",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "35.20",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "22.063",
+        "tax_rate": "0.13"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0052",
+    "vendor_id": "V008",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "29.6899",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "26.19",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "21.818",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "11.1265",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 5,
+        "sku": "SKU-005",
+        "description": "采购物料05",
+        "quantity": "100",
+        "unit_price_excl_tax": "31.17",
+        "tax_rate": "0.06"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0053",
+    "vendor_id": "V009",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "21.05",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "22.251",
+        "tax_rate": "0.06"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0054",
+    "vendor_id": "V010",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "35.806",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "14.5667",
+        "tax_rate": "0.13"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0055",
+    "vendor_id": "V011",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "40.0871",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "36.91",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "14.272",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "32.5922",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 5,
+        "sku": "SKU-005",
+        "description": "采购物料05",
+        "quantity": "100",
+        "unit_price_excl_tax": "20.85",
+        "tax_rate": "0.06"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0056",
+    "vendor_id": "V001",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "16.43",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "12.701",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "23.1286",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "37.22",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 5,
+        "sku": "SKU-005",
+        "description": "采购物料05",
+        "quantity": "100",
+        "unit_price_excl_tax": "28.879",
+        "tax_rate": "0.13"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0057",
+    "vendor_id": "V002",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "38.756",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "29.2920",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "35.48",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "18.708",
+        "tax_rate": "0.09"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0058",
+    "vendor_id": "V003",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "14.5480",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "13.05",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "29.346",
+        "tax_rate": "0.06"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0059",
+    "vendor_id": "V004",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "28.94",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "24.462",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "35.5194",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "22.98",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 5,
+        "sku": "SKU-005",
+        "description": "采购物料05",
+        "quantity": "100",
+        "unit_price_excl_tax": "29.891",
+        "tax_rate": "0.06"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0060",
+    "vendor_id": "V005",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "27.147",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "24.8765",
+        "tax_rate": "0.06"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0061",
+    "vendor_id": "V006",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "10.5665",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "15.90",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "19.233",
+        "tax_rate": "0.09"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0062",
+    "vendor_id": "V007",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "13.07",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "31.050",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "40.2365",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "24.92",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 5,
+        "sku": "SKU-005",
+        "description": "采购物料05",
+        "quantity": "100",
+        "unit_price_excl_tax": "31.590",
+        "tax_rate": "0.13"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0063",
+    "vendor_id": "V008",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "23.188",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "25.5961",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "23.05",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "16.058",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 5,
+        "sku": "SKU-005",
+        "description": "采购物料05",
+        "quantity": "100",
+        "unit_price_excl_tax": "17.0969",
+        "tax_rate": "0.09"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0064",
+    "vendor_id": "V009",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "25.3238",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "14.86",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "35.406",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "25.7234",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 5,
+        "sku": "SKU-005",
+        "description": "采购物料05",
+        "quantity": "100",
+        "unit_price_excl_tax": "13.65",
+        "tax_rate": "0.06"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0065",
+    "vendor_id": "V010",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "36.78",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "29.176",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "35.7904",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "34.96",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 5,
+        "sku": "SKU-005",
+        "description": "采购物料05",
+        "quantity": "100",
+        "unit_price_excl_tax": "36.708",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 6,
+        "sku": "SKU-006",
+        "description": "采购物料06",
+        "quantity": "100",
+        "unit_price_excl_tax": "27.9386",
+        "tax_rate": "0.13"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0066",
+    "vendor_id": "V011",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "20.633",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "11.7841",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "30.17",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "16.727",
+        "tax_rate": "0.09"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0067",
+    "vendor_id": "V001",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "34.7000",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "35.03",
+        "tax_rate": "0.13"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0068",
+    "vendor_id": "V002",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "17.56",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "32.422",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "39.1098",
+        "tax_rate": "0.09"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0069",
+    "vendor_id": "V003",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "32.829",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "32.8957",
+        "tax_rate": "0.09"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0070",
+    "vendor_id": "V004",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "25.8812",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "28.44",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "23.955",
+        "tax_rate": "0.09"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0071",
+    "vendor_id": "V005",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "12.95",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "17.037",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "26.7786",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "23.58",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 5,
+        "sku": "SKU-005",
+        "description": "采购物料05",
+        "quantity": "100",
+        "unit_price_excl_tax": "40.448",
+        "tax_rate": "0.06"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0072",
+    "vendor_id": "V006",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "18.330",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "23.8470",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "31.94",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "11.358",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 5,
+        "sku": "SKU-005",
+        "description": "采购物料05",
+        "quantity": "100",
+        "unit_price_excl_tax": "20.3552",
+        "tax_rate": "0.06"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0073",
+    "vendor_id": "V007",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "19.4445",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "35.83",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "25.987",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "23.6982",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 5,
+        "sku": "SKU-005",
+        "description": "采购物料05",
+        "quantity": "100",
+        "unit_price_excl_tax": "32.90",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 6,
+        "sku": "SKU-006",
+        "description": "采购物料06",
+        "quantity": "100",
+        "unit_price_excl_tax": "14.310",
+        "tax_rate": "0.13"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0074",
+    "vendor_id": "V008",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "33.80",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "23.584",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "35.1277",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "38.03",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 5,
+        "sku": "SKU-005",
+        "description": "采购物料05",
+        "quantity": "100",
+        "unit_price_excl_tax": "33.695",
+        "tax_rate": "0.09"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0075",
+    "vendor_id": "V009",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "38.204",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "16.1578",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "12.45",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "29.172",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 5,
+        "sku": "SKU-005",
+        "description": "采购物料05",
+        "quantity": "100",
+        "unit_price_excl_tax": "12.4609",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 6,
+        "sku": "SKU-006",
+        "description": "采购物料06",
+        "quantity": "100",
+        "unit_price_excl_tax": "20.46",
+        "tax_rate": "0.06"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0076",
+    "vendor_id": "V010",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "19.1206",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "35.14",
+        "tax_rate": "0.06"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0077",
+    "vendor_id": "V011",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "14.42",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "30.882",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "19.8965",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "34.21",
+        "tax_rate": "0.06"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0078",
+    "vendor_id": "V001",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "19.854",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "13.2642",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "38.71",
+        "tax_rate": "0.09"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0079",
+    "vendor_id": "V002",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "32.6427",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "26.79",
+        "tax_rate": "0.09"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0080",
+    "vendor_id": "V003",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "31.02",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "22.265",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "32.6942",
+        "tax_rate": "0.06"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0081",
+    "vendor_id": "V004",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "37.028",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "31.1233",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "20.00",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "18.626",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 5,
+        "sku": "SKU-005",
+        "description": "采购物料05",
+        "quantity": "100",
+        "unit_price_excl_tax": "35.5361",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 6,
+        "sku": "SKU-006",
+        "description": "采购物料06",
+        "quantity": "100",
+        "unit_price_excl_tax": "26.26",
+        "tax_rate": "0.06"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0082",
+    "vendor_id": "V005",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "24.2310",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "24.93",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "13.609",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "11.7481",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 5,
+        "sku": "SKU-005",
+        "description": "采购物料05",
+        "quantity": "100",
+        "unit_price_excl_tax": "13.21",
+        "tax_rate": "0.09"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0083",
+    "vendor_id": "V006",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "28.02",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "19.789",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "23.2215",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "38.39",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 5,
+        "sku": "SKU-005",
+        "description": "采购物料05",
+        "quantity": "100",
+        "unit_price_excl_tax": "16.971",
+        "tax_rate": "0.09"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0084",
+    "vendor_id": "V007",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "19.470",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "16.0733",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "22.50",
+        "tax_rate": "0.13"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0085",
+    "vendor_id": "V008",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "32.1318",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "37.41",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "13.098",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "40.5660",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 5,
+        "sku": "SKU-005",
+        "description": "采购物料05",
+        "quantity": "100",
+        "unit_price_excl_tax": "11.01",
+        "tax_rate": "0.06"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0086",
+    "vendor_id": "V009",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "27.67",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "22.431",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "33.6615",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "12.58",
+        "tax_rate": "0.06"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0087",
+    "vendor_id": "V010",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "40.342",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "23.9528",
+        "tax_rate": "0.09"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0088",
+    "vendor_id": "V011",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "17.6825",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "19.02",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "11.209",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "12.1492",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 5,
+        "sku": "SKU-005",
+        "description": "采购物料05",
+        "quantity": "100",
+        "unit_price_excl_tax": "30.19",
+        "tax_rate": "0.09"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0089",
+    "vendor_id": "V001",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "29.61",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "10.252",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "20.0114",
+        "tax_rate": "0.06"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0090",
+    "vendor_id": "V002",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "21.260",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "25.1619",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "11.73",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "15.547",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 5,
+        "sku": "SKU-005",
+        "description": "采购物料05",
+        "quantity": "100",
+        "unit_price_excl_tax": "26.9062",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 6,
+        "sku": "SKU-006",
+        "description": "采购物料06",
+        "quantity": "100",
+        "unit_price_excl_tax": "24.72",
+        "tax_rate": "0.09"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0091",
+    "vendor_id": "V003",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "36.6378",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "31.97",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "37.172",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "35.2564",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 5,
+        "sku": "SKU-005",
+        "description": "采购物料05",
+        "quantity": "100",
+        "unit_price_excl_tax": "35.67",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 6,
+        "sku": "SKU-006",
+        "description": "采购物料06",
+        "quantity": "100",
+        "unit_price_excl_tax": "29.693",
+        "tax_rate": "0.13"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0092",
+    "vendor_id": "V004",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "22.30",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "12.078",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "27.8149",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "26.24",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 5,
+        "sku": "SKU-005",
+        "description": "采购物料05",
+        "quantity": "100",
+        "unit_price_excl_tax": "13.707",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 6,
+        "sku": "SKU-006",
+        "description": "采购物料06",
+        "quantity": "100",
+        "unit_price_excl_tax": "40.2365",
+        "tax_rate": "0.13"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0093",
+    "vendor_id": "V005",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "30.301",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "28.3300",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "14.24",
+        "tax_rate": "0.06"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0094",
+    "vendor_id": "V006",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "40.5953",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "29.61",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "36.721",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "10.0530",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 5,
+        "sku": "SKU-005",
+        "description": "采购物料05",
+        "quantity": "100",
+        "unit_price_excl_tax": "37.11",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 6,
+        "sku": "SKU-006",
+        "description": "采购物料06",
+        "quantity": "100",
+        "unit_price_excl_tax": "12.223",
+        "tax_rate": "0.13"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0095",
+    "vendor_id": "V007",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "31.67",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "38.919",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "38.5841",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "30.03",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 5,
+        "sku": "SKU-005",
+        "description": "采购物料05",
+        "quantity": "100",
+        "unit_price_excl_tax": "12.204",
+        "tax_rate": "0.09"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0096",
+    "vendor_id": "V008",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "37.129",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "11.3454",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "37.36",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "22.029",
+        "tax_rate": "0.06"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0097",
+    "vendor_id": "V009",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "31.0399",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "20.23",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "17.816",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "33.5052",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 5,
+        "sku": "SKU-005",
+        "description": "采购物料05",
+        "quantity": "100",
+        "unit_price_excl_tax": "23.09",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 6,
+        "sku": "SKU-006",
+        "description": "采购物料06",
+        "quantity": "100",
+        "unit_price_excl_tax": "36.722",
+        "tax_rate": "0.13"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0098",
+    "vendor_id": "V010",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "34.38",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "22.740",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "19.0232",
+        "tax_rate": "0.06"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0099",
+    "vendor_id": "V011",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "37.572",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "40.7578",
+        "tax_rate": "0.13"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0100",
+    "vendor_id": "V001",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "21.0297",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "23.10",
+        "tax_rate": "0.13"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0101",
+    "vendor_id": "V002",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "18.65",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "26.640",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "13.2530",
+        "tax_rate": "0.13"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0102",
+    "vendor_id": "V003",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "31.597",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "38.7334",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "37.49",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "20.836",
+        "tax_rate": "0.06"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0103",
+    "vendor_id": "V004",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "24.6366",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "16.73",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "13.576",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "33.7889",
+        "tax_rate": "0.06"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0104",
+    "vendor_id": "V005",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "10.62",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "13.180",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "40.4539",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "25.69",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 5,
+        "sku": "SKU-005",
+        "description": "采购物料05",
+        "quantity": "100",
+        "unit_price_excl_tax": "14.047",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 6,
+        "sku": "SKU-006",
+        "description": "采购物料06",
+        "quantity": "100",
+        "unit_price_excl_tax": "18.3633",
+        "tax_rate": "0.09"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0105",
+    "vendor_id": "V006",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "12.134",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "12.1115",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "16.79",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "31.795",
+        "tax_rate": "0.06"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0106",
+    "vendor_id": "V007",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "21.0416",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "24.31",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "19.631",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "27.7322",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 5,
+        "sku": "SKU-005",
+        "description": "采购物料05",
+        "quantity": "100",
+        "unit_price_excl_tax": "16.40",
+        "tax_rate": "0.06"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0107",
+    "vendor_id": "V008",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "38.01",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "12.461",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "37.6277",
+        "tax_rate": "0.13"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0108",
+    "vendor_id": "V009",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "27.544",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "28.8759",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "16.51",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "21.569",
+        "tax_rate": "0.06"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0109",
+    "vendor_id": "V010",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "25.3730",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "12.00",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "12.703",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "35.6716",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 5,
+        "sku": "SKU-005",
+        "description": "采购物料05",
+        "quantity": "100",
+        "unit_price_excl_tax": "11.31",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 6,
+        "sku": "SKU-006",
+        "description": "采购物料06",
+        "quantity": "100",
+        "unit_price_excl_tax": "25.257",
+        "tax_rate": "0.13"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0110",
+    "vendor_id": "V011",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "20.78",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "34.255",
+        "tax_rate": "0.06"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0111",
+    "vendor_id": "V001",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "37.141",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "28.4955",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "21.00",
+        "tax_rate": "0.13"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0112",
+    "vendor_id": "V002",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "38.5731",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "33.18",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "13.271",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "35.4559",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 5,
+        "sku": "SKU-005",
+        "description": "采购物料05",
+        "quantity": "100",
+        "unit_price_excl_tax": "11.57",
+        "tax_rate": "0.13"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0113",
+    "vendor_id": "V003",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "12.27",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "31.352",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "15.4705",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "40.46",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 5,
+        "sku": "SKU-005",
+        "description": "采购物料05",
+        "quantity": "100",
+        "unit_price_excl_tax": "12.284",
+        "tax_rate": "0.06"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0114",
+    "vendor_id": "V004",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "11.928",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "17.5464",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "30.63",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "13.398",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 5,
+        "sku": "SKU-005",
+        "description": "采购物料05",
+        "quantity": "100",
+        "unit_price_excl_tax": "28.1207",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 6,
+        "sku": "SKU-006",
+        "description": "采购物料06",
+        "quantity": "100",
+        "unit_price_excl_tax": "15.37",
+        "tax_rate": "0.06"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0115",
+    "vendor_id": "V005",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "20.6498",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "29.91",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "10.435",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "24.9759",
+        "tax_rate": "0.13"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0116",
+    "vendor_id": "V006",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "26.68",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "40.132",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "31.1252",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "31.54",
+        "tax_rate": "0.09"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0117",
+    "vendor_id": "V007",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "30.573",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "18.4080",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "22.56",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "23.409",
+        "tax_rate": "0.13"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0118",
+    "vendor_id": "V008",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "19.8608",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "24.69",
+        "tax_rate": "0.09"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0119",
+    "vendor_id": "V009",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "24.02",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "29.844",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "21.6009",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "23.08",
+        "tax_rate": "0.13"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0120",
+    "vendor_id": "V010",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "31.542",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "14.0895",
+        "tax_rate": "0.13"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0121",
+    "vendor_id": "V011",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "40.1830",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "22.16",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "11.988",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "37.4135",
+        "tax_rate": "0.06"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0122",
+    "vendor_id": "V001",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "23.52",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "29.739",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "29.6787",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "21.41",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 5,
+        "sku": "SKU-005",
+        "description": "采购物料05",
+        "quantity": "100",
+        "unit_price_excl_tax": "25.388",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 6,
+        "sku": "SKU-006",
+        "description": "采购物料06",
+        "quantity": "100",
+        "unit_price_excl_tax": "25.3211",
+        "tax_rate": "0.13"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0123",
+    "vendor_id": "V002",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "32.726",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "23.2623",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "29.70",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "16.379",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 5,
+        "sku": "SKU-005",
+        "description": "采购物料05",
+        "quantity": "100",
+        "unit_price_excl_tax": "28.4309",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 6,
+        "sku": "SKU-006",
+        "description": "采购物料06",
+        "quantity": "100",
+        "unit_price_excl_tax": "28.27",
+        "tax_rate": "0.06"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0124",
+    "vendor_id": "V003",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "37.8994",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "30.31",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "30.329",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "24.5719",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 5,
+        "sku": "SKU-005",
+        "description": "采购物料05",
+        "quantity": "100",
+        "unit_price_excl_tax": "19.28",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 6,
+        "sku": "SKU-006",
+        "description": "采购物料06",
+        "quantity": "100",
+        "unit_price_excl_tax": "12.493",
+        "tax_rate": "0.06"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0125",
+    "vendor_id": "V004",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "31.58",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "23.426",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "28.5963",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "37.47",
+        "tax_rate": "0.06"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0126",
+    "vendor_id": "V005",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "21.186",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "22.0065",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "38.48",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "25.521",
+        "tax_rate": "0.09"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0127",
+    "vendor_id": "V006",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "16.3742",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "10.11",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "19.472",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "10.6805",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 5,
+        "sku": "SKU-005",
+        "description": "采购物料05",
+        "quantity": "100",
+        "unit_price_excl_tax": "18.66",
+        "tax_rate": "0.13"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0128",
+    "vendor_id": "V007",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "34.56",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "12.089",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "14.9478",
+        "tax_rate": "0.13"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0129",
+    "vendor_id": "V008",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "37.913",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "33.4422",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "21.97",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "28.958",
+        "tax_rate": "0.09"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0130",
+    "vendor_id": "V009",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "39.2635",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "18.10",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "33.369",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "26.2128",
+        "tax_rate": "0.06"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0131",
+    "vendor_id": "V010",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "25.48",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "11.637",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "10.9953",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "15.99",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 5,
+        "sku": "SKU-005",
+        "description": "采购物料05",
+        "quantity": "100",
+        "unit_price_excl_tax": "31.049",
+        "tax_rate": "0.09"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0132",
+    "vendor_id": "V011",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "24.589",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "21.7588",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "36.45",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "12.988",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 5,
+        "sku": "SKU-005",
+        "description": "采购物料05",
+        "quantity": "100",
+        "unit_price_excl_tax": "33.9453",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 6,
+        "sku": "SKU-006",
+        "description": "采购物料06",
+        "quantity": "100",
+        "unit_price_excl_tax": "29.98",
+        "tax_rate": "0.06"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0133",
+    "vendor_id": "V001",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "37.9334",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "38.12",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "13.456",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "15.1483",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 5,
+        "sku": "SKU-005",
+        "description": "采购物料05",
+        "quantity": "100",
+        "unit_price_excl_tax": "21.62",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 6,
+        "sku": "SKU-006",
+        "description": "采购物料06",
+        "quantity": "100",
+        "unit_price_excl_tax": "20.688",
+        "tax_rate": "0.06"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0134",
+    "vendor_id": "V002",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "21.32",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "22.882",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "14.7429",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "25.87",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 5,
+        "sku": "SKU-005",
+        "description": "采购物料05",
+        "quantity": "100",
+        "unit_price_excl_tax": "18.099",
+        "tax_rate": "0.06"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0135",
+    "vendor_id": "V003",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "27.426",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "18.5396",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "24.23",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "19.929",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 5,
+        "sku": "SKU-005",
+        "description": "采购物料05",
+        "quantity": "100",
+        "unit_price_excl_tax": "33.9167",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 6,
+        "sku": "SKU-006",
+        "description": "采购物料06",
+        "quantity": "100",
+        "unit_price_excl_tax": "17.33",
+        "tax_rate": "0.06"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0136",
+    "vendor_id": "V004",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "39.0700",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "33.08",
+        "tax_rate": "0.13"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0137",
+    "vendor_id": "V005",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "40.88",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "24.597",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "20.0607",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "40.32",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 5,
+        "sku": "SKU-005",
+        "description": "采购物料05",
+        "quantity": "100",
+        "unit_price_excl_tax": "21.750",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 6,
+        "sku": "SKU-006",
+        "description": "采购物料06",
+        "quantity": "100",
+        "unit_price_excl_tax": "18.0440",
+        "tax_rate": "0.13"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0138",
+    "vendor_id": "V006",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "13.330",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "31.8932",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "22.75",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "39.307",
+        "tax_rate": "0.09"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0139",
+    "vendor_id": "V007",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "28.2328",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "39.54",
+        "tax_rate": "0.09"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0140",
+    "vendor_id": "V008",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "38.59",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "37.008",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "14.3750",
+        "tax_rate": "0.06"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0141",
+    "vendor_id": "V009",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "26.600",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "39.8623",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "11.16",
+        "tax_rate": "0.13"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0142",
+    "vendor_id": "V010",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "21.8900",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "20.73",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "20.236",
+        "tax_rate": "0.09"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0143",
+    "vendor_id": "V011",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "33.66",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "19.520",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "35.6572",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "33.37",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 5,
+        "sku": "SKU-005",
+        "description": "采购物料05",
+        "quantity": "100",
+        "unit_price_excl_tax": "37.868",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 6,
+        "sku": "SKU-006",
+        "description": "采购物料06",
+        "quantity": "100",
+        "unit_price_excl_tax": "12.1467",
+        "tax_rate": "0.09"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0144",
+    "vendor_id": "V001",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "17.106",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "10.6451",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "39.97",
+        "tax_rate": "0.13"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0145",
+    "vendor_id": "V002",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "18.3392",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "31.42",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "40.335",
+        "tax_rate": "0.09"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0146",
+    "vendor_id": "V003",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "17.43",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "17.461",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "37.3821",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "34.54",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 5,
+        "sku": "SKU-005",
+        "description": "采购物料05",
+        "quantity": "100",
+        "unit_price_excl_tax": "28.936",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 6,
+        "sku": "SKU-006",
+        "description": "采购物料06",
+        "quantity": "100",
+        "unit_price_excl_tax": "38.8676",
+        "tax_rate": "0.06"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0147",
+    "vendor_id": "V004",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "17.620",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "28.8693",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "40.01",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "38.523",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 5,
+        "sku": "SKU-005",
+        "description": "采购物料05",
+        "quantity": "100",
+        "unit_price_excl_tax": "34.6451",
+        "tax_rate": "0.09"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0148",
+    "vendor_id": "V005",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "17.9629",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "33.71",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "22.140",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "13.1946",
+        "tax_rate": "0.06"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0149",
+    "vendor_id": "V006",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "19.45",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "34.995",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "13.0609",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "25.20",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 5,
+        "sku": "SKU-005",
+        "description": "采购物料05",
+        "quantity": "100",
+        "unit_price_excl_tax": "38.177",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 6,
+        "sku": "SKU-006",
+        "description": "采购物料06",
+        "quantity": "100",
+        "unit_price_excl_tax": "29.0379",
+        "tax_rate": "0.13"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0150",
+    "vendor_id": "V007",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "29.438",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "31.6142",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "34.08",
+        "tax_rate": "0.09"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0151",
+    "vendor_id": "V008",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "24.8832",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "31.83",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "23.527",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "32.1565",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 5,
+        "sku": "SKU-005",
+        "description": "采购物料05",
+        "quantity": "100",
+        "unit_price_excl_tax": "25.99",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 6,
+        "sku": "SKU-006",
+        "description": "采购物料06",
+        "quantity": "100",
+        "unit_price_excl_tax": "28.387",
+        "tax_rate": "0.09"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0152",
+    "vendor_id": "V009",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "32.29",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "12.723",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "39.0494",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "34.78",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 5,
+        "sku": "SKU-005",
+        "description": "采购物料05",
+        "quantity": "100",
+        "unit_price_excl_tax": "32.151",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 6,
+        "sku": "SKU-006",
+        "description": "采购物料06",
+        "quantity": "100",
+        "unit_price_excl_tax": "31.9066",
+        "tax_rate": "0.06"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0153",
+    "vendor_id": "V010",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "36.566",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "31.9431",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "16.67",
+        "tax_rate": "0.13"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0154",
+    "vendor_id": "V011",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "39.9411",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "17.27",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "32.201",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "33.6384",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 5,
+        "sku": "SKU-005",
+        "description": "采购物料05",
+        "quantity": "100",
+        "unit_price_excl_tax": "35.63",
+        "tax_rate": "0.09"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0155",
+    "vendor_id": "V001",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "36.96",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "31.128",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "25.6971",
+        "tax_rate": "0.09"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0156",
+    "vendor_id": "V002",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "40.885",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "22.3873",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "17.41",
+        "tax_rate": "0.09"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0157",
+    "vendor_id": "V003",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "13.9207",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "14.33",
+        "tax_rate": "0.13"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0158",
+    "vendor_id": "V004",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "24.64",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "19.699",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "35.3520",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "18.40",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 5,
+        "sku": "SKU-005",
+        "description": "采购物料05",
+        "quantity": "100",
+        "unit_price_excl_tax": "39.455",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 6,
+        "sku": "SKU-006",
+        "description": "采购物料06",
+        "quantity": "100",
+        "unit_price_excl_tax": "20.0566",
+        "tax_rate": "0.09"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0159",
+    "vendor_id": "V005",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "16.580",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "27.3196",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "21.76",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "38.775",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 5,
+        "sku": "SKU-005",
+        "description": "采购物料05",
+        "quantity": "100",
+        "unit_price_excl_tax": "22.3610",
+        "tax_rate": "0.13"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0160",
+    "vendor_id": "V006",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "32.3331",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "22.03",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "18.210",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "18.0229",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 5,
+        "sku": "SKU-005",
+        "description": "采购物料05",
+        "quantity": "100",
+        "unit_price_excl_tax": "39.75",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 6,
+        "sku": "SKU-006",
+        "description": "采购物料06",
+        "quantity": "100",
+        "unit_price_excl_tax": "39.959",
+        "tax_rate": "0.06"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0161",
+    "vendor_id": "V007",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "40.91",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "32.134",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "16.9325",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "18.29",
+        "tax_rate": "0.06"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0162",
+    "vendor_id": "V008",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "15.561",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "33.3989",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "14.72",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "20.949",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 5,
+        "sku": "SKU-005",
+        "description": "采购物料05",
+        "quantity": "100",
+        "unit_price_excl_tax": "12.4282",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 6,
+        "sku": "SKU-006",
+        "description": "采购物料06",
+        "quantity": "100",
+        "unit_price_excl_tax": "19.79",
+        "tax_rate": "0.13"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0163",
+    "vendor_id": "V009",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "34.6089",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "27.82",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "17.599",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "11.6899",
+        "tax_rate": "0.06"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0164",
+    "vendor_id": "V010",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "18.65",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "13.038",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "35.2738",
+        "tax_rate": "0.13"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0165",
+    "vendor_id": "V011",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "13.602",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "17.4950",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "33.27",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "24.685",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 5,
+        "sku": "SKU-005",
+        "description": "采购物料05",
+        "quantity": "100",
+        "unit_price_excl_tax": "34.1994",
+        "tax_rate": "0.09"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0166",
+    "vendor_id": "V001",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "26.0386",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "17.07",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "17.744",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "36.9282",
+        "tax_rate": "0.09"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0167",
+    "vendor_id": "V002",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "36.81",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "11.190",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "32.7166",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "29.24",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 5,
+        "sku": "SKU-005",
+        "description": "采购物料05",
+        "quantity": "100",
+        "unit_price_excl_tax": "28.321",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 6,
+        "sku": "SKU-006",
+        "description": "采购物料06",
+        "quantity": "100",
+        "unit_price_excl_tax": "15.0149",
+        "tax_rate": "0.09"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0168",
+    "vendor_id": "V003",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "22.013",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "37.0848",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "31.37",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "14.090",
+        "tax_rate": "0.13"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0169",
+    "vendor_id": "V004",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "29.6298",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "11.60",
+        "tax_rate": "0.06"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0170",
+    "vendor_id": "V005",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "26.33",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "35.950",
+        "tax_rate": "0.09"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0171",
+    "vendor_id": "V006",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "11.198",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "20.1934",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "35.36",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "25.384",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 5,
+        "sku": "SKU-005",
+        "description": "采购物料05",
+        "quantity": "100",
+        "unit_price_excl_tax": "35.5978",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 6,
+        "sku": "SKU-006",
+        "description": "采购物料06",
+        "quantity": "100",
+        "unit_price_excl_tax": "12.02",
+        "tax_rate": "0.13"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0172",
+    "vendor_id": "V007",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "24.3157",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "24.67",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "23.919",
+        "tax_rate": "0.06"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0173",
+    "vendor_id": "V008",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "14.21",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "26.191",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "30.0520",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "35.00",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 5,
+        "sku": "SKU-005",
+        "description": "采购物料05",
+        "quantity": "100",
+        "unit_price_excl_tax": "16.100",
+        "tax_rate": "0.06"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0174",
+    "vendor_id": "V009",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "12.920",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "26.8978",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "19.76",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "36.397",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 5,
+        "sku": "SKU-005",
+        "description": "采购物料05",
+        "quantity": "100",
+        "unit_price_excl_tax": "21.7318",
+        "tax_rate": "0.09"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0175",
+    "vendor_id": "V010",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "10.4695",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "14.38",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "26.314",
+        "tax_rate": "0.13"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0176",
+    "vendor_id": "V011",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "24.01",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "12.717",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "37.0523",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "25.65",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 5,
+        "sku": "SKU-005",
+        "description": "采购物料05",
+        "quantity": "100",
+        "unit_price_excl_tax": "12.553",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 6,
+        "sku": "SKU-006",
+        "description": "采购物料06",
+        "quantity": "100",
+        "unit_price_excl_tax": "29.7118",
+        "tax_rate": "0.13"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0177",
+    "vendor_id": "V001",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "29.320",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "38.6081",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "36.03",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "34.371",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 5,
+        "sku": "SKU-005",
+        "description": "采购物料05",
+        "quantity": "100",
+        "unit_price_excl_tax": "11.4740",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 6,
+        "sku": "SKU-006",
+        "description": "采购物料06",
+        "quantity": "100",
+        "unit_price_excl_tax": "29.47",
+        "tax_rate": "0.09"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0178",
+    "vendor_id": "V002",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "27.8629",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "13.12",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "19.282",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "18.6942",
+        "tax_rate": "0.06"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0179",
+    "vendor_id": "V001",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "38.31",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "10.345",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "30.6053",
+        "tax_rate": "0.13"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0180",
+    "vendor_id": "V002",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "29.815",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "22.9745",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "40.98",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "17.515",
+        "tax_rate": "0.09"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0181",
+    "vendor_id": "V003",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "26.2647",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "27.10",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "25.638",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "32.8748",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 5,
+        "sku": "SKU-005",
+        "description": "采购物料05",
+        "quantity": "100",
+        "unit_price_excl_tax": "10.96",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 6,
+        "sku": "SKU-006",
+        "description": "采购物料06",
+        "quantity": "100",
+        "unit_price_excl_tax": "24.974",
+        "tax_rate": "0.06"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0182",
+    "vendor_id": "V004",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "33.66",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "10.184",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "20.3805",
+        "tax_rate": "0.13"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0183",
+    "vendor_id": "V005",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "25.980",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "13.8916",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "15.13",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "12.244",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 5,
+        "sku": "SKU-005",
+        "description": "采购物料05",
+        "quantity": "100",
+        "unit_price_excl_tax": "37.5213",
+        "tax_rate": "0.13"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0184",
+    "vendor_id": "V008",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "16.3897",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "29.38",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "40.299",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "11.6514",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 5,
+        "sku": "SKU-005",
+        "description": "采购物料05",
+        "quantity": "100",
+        "unit_price_excl_tax": "20.38",
+        "tax_rate": "0.06"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0185",
+    "vendor_id": "V009",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "27.26",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "40.465",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "26.6345",
+        "tax_rate": "0.06"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0186",
+    "vendor_id": "V010",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "11.887",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "25.6250",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "22.79",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "12.982",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 5,
+        "sku": "SKU-005",
+        "description": "采购物料05",
+        "quantity": "100",
+        "unit_price_excl_tax": "27.2872",
+        "tax_rate": "0.13"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0187",
+    "vendor_id": "V011",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "23.6267",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "26.72",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "14.062",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "16.7014",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 5,
+        "sku": "SKU-005",
+        "description": "采购物料05",
+        "quantity": "100",
+        "unit_price_excl_tax": "21.02",
+        "tax_rate": "0.13"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0188",
+    "vendor_id": "V001",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "30.70",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "37.017",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "36.0782",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "20.93",
+        "tax_rate": "0.09"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0189",
+    "vendor_id": "V012",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "10.413",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "14.1108",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "33.76",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "21.797",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 5,
+        "sku": "SKU-005",
+        "description": "采购物料05",
+        "quantity": "100",
+        "unit_price_excl_tax": "30.7932",
+        "tax_rate": "0.09"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0190",
+    "vendor_id": "V012",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "17.6621",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "38.50",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "37.100",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "29.8628",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 5,
+        "sku": "SKU-005",
+        "description": "采购物料05",
+        "quantity": "100",
+        "unit_price_excl_tax": "27.31",
+        "tax_rate": "0.06"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0191",
+    "vendor_id": "V004",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "34.62",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "10.315",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "35.1019",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "37.57",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 5,
+        "sku": "SKU-005",
+        "description": "采购物料05",
+        "quantity": "100",
+        "unit_price_excl_tax": "11.276",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 6,
+        "sku": "SKU-006",
+        "description": "采购物料06",
+        "quantity": "100",
+        "unit_price_excl_tax": "31.1693",
+        "tax_rate": "0.09"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0192",
+    "vendor_id": "V005",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "20.540",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "26.9830",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "21.13",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "37.568",
+        "tax_rate": "0.09"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0193",
+    "vendor_id": "V006",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "26.4335",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "27.08",
+        "tax_rate": "0.06"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0194",
+    "vendor_id": "V007",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "37.96",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "37.889",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "28.4300",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "29.78",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 5,
+        "sku": "SKU-005",
+        "description": "采购物料05",
+        "quantity": "100",
+        "unit_price_excl_tax": "22.409",
+        "tax_rate": "0.13"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0195",
+    "vendor_id": "V008",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "33.511",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "15.0960",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "35.80",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "27.048",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 5,
+        "sku": "SKU-005",
+        "description": "采购物料05",
+        "quantity": "100",
+        "unit_price_excl_tax": "24.5519",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 6,
+        "sku": "SKU-006",
+        "description": "采购物料06",
+        "quantity": "100",
+        "unit_price_excl_tax": "23.95",
+        "tax_rate": "0.13"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0196",
+    "vendor_id": "V009",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "37.4152",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "18.46",
+        "tax_rate": "0.06"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0197",
+    "vendor_id": "V010",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "39.32",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "21.393",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "11.1409",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "22.36",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 5,
+        "sku": "SKU-005",
+        "description": "采购物料05",
+        "quantity": "100",
+        "unit_price_excl_tax": "18.283",
+        "tax_rate": "0.09"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0198",
+    "vendor_id": "V011",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "17.463",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "20.1387",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "15.72",
+        "tax_rate": "0.09"
+      },
+      {
+        "po_line_no": 4,
+        "sku": "SKU-004",
+        "description": "采购物料04",
+        "quantity": "100",
+        "unit_price_excl_tax": "34.605",
+        "tax_rate": "0.13"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0199",
+    "vendor_id": "V001",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "37.3382",
+        "tax_rate": "0.13"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "36.10",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "39.474",
+        "tax_rate": "0.09"
+      }
+    ]
+  },
+  {
+    "po_number": "PO-2026-0200",
+    "vendor_id": "V002",
+    "currency": "CNY",
+    "created_at": "2026-06-16",
+    "lines": [
+      {
+        "po_line_no": 1,
+        "sku": "SKU-001",
+        "description": "采购物料01",
+        "quantity": "100",
+        "unit_price_excl_tax": "15.12",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 2,
+        "sku": "SKU-002",
+        "description": "采购物料02",
+        "quantity": "100",
+        "unit_price_excl_tax": "14.555",
+        "tax_rate": "0.06"
+      },
+      {
+        "po_line_no": 3,
+        "sku": "SKU-003",
+        "description": "采购物料03",
+        "quantity": "100",
+        "unit_price_excl_tax": "25.9777",
+        "tax_rate": "0.13"
+      }
+    ]
+  }
+]
