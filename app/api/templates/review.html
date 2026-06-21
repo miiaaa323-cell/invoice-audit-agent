@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>采购发票审核</title>
+    <link rel="stylesheet" href="/static/review.css" />
+    <script src="/static/review.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <div class="brand">
+        <span class="brand-mark">票</span>
+        <div>
+          <h1>采购发票审核</h1>
+          <p>应付账款 · 审核工作台</p>
+        </div>
+      </div>
+      <label class="role"
+        >当前角色
+        <select id="role">
+          <option value="ap_clerk">应付会计</option>
+          <option value="finance_manager">财务经理</option>
+        </select></label
+      >
+    </header>
+    <main>
+      <section class="intro">
+        <div>
+          <p class="eyebrow">INVOICE WORKSPACE</p>
+          <h2>每一笔应付，都有据可查。</h2>
+          <p>核对发票与采购、收货记录，集中处理差异和审批。</p>
+        </div>
+        <form id="upload-form">
+          <label class="upload-label"
+            >提交发票 PDF<input
+              type="file"
+              id="invoice-file"
+              accept="application/pdf"
+              required /></label
+          ><button type="submit" class="primary">提交审核</button>
+          <p class="samples">
+            示例：<a href="/sample-invoices/invoice_0046.pdf" download
+              >标准发票</a
+            >
+            ·
+            <a href="/sample-invoices/invoice_0021.pdf" download>大额发票</a> ·
+            <a href="/sample-invoices/invoice_0161.pdf" download>数量差异</a>
+          </p>
+        </form>
+      </section>
+      <p id="notice" role="status" hidden></p>
+      <section class="stats" aria-label="审核概况">
+        <div><span>待处理</span><strong id="processing-count">0</strong></div>
+        <div><span>已通过</span><strong id="approved-count">0</strong></div>
+        <div><span>待补材料</span><strong id="waiting-count">0</strong></div>
+      </section>
+      <section class="workspace">
+        <aside class="panel">
+          <div class="panel-title">
+            <h3>审核列表</h3>
+            <button id="refresh" class="quiet" type="button">刷新</button>
+          </div>
+          <select id="filter" aria-label="按审核状态筛选">
+            <option value="">全部状态</option>
+            <option value="PROCESSING">待处理</option>
+            <option value="WAITING_INFO">待补材料</option>
+            <option value="APPROVED">已通过</option>
+            <option value="REJECTED">已驳回</option>
+            <option value="CANCELLED">已取消</option>
+          </select>
+          <div id="run-list" class="run-list"></div>
+        </aside>
+        <article id="detail" class="panel detail">
+          <div class="empty">
+            <span class="empty-icon">▤</span>
+            <h3>选择一张发票</h3>
+            <p>查看票面信息、差异明细和当前待办。</p>
+          </div>
+        </article>
+      </section>
+    </main>
+    <footer>采购 · 收货 · 发票</footer>
+  </body>
+</html>
