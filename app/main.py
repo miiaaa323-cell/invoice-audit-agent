@@ -4,6 +4,7 @@ import sqlite3
 from contextlib import asynccontextmanager
 from pathlib import Path
 
+from anthropic import APIError
 from fastapi import FastAPI, Request
 from fastapi.responses import JSONResponse, RedirectResponse
 from fastapi.staticfiles import StaticFiles
@@ -83,6 +84,7 @@ def create_app(settings: Settings | None = None):
         )
 
     @app.exception_handler(LLMResponseError)
+    @app.exception_handler(APIError)
     async def model_error(request: Request, exc: LLMResponseError):
         return JSONResponse(
             status_code=502, content={"detail": "字段识别服务未返回有效结果，请稍后重试。"}

@@ -67,7 +67,7 @@ class ExtractionService:
             response = self.client.complete("extract_invoice", payload, ExtractionResult)
             try:
                 extraction = ExtractionResult.model_validate(response)
-                confidences = confidence_map(extraction.invoice, extraction.confidences)
+                confidences = confidence_map(extraction.invoice, response.get("confidences", {}))
                 return text, extraction.invoice, confidences
             except (ValidationError, ValueError) as exc:
                 if attempt:

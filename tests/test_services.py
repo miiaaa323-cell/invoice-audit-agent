@@ -158,6 +158,19 @@ def test_missing_confidence_is_conservative(invoice):
     assert set(confidence_map(invoice, {}).values()) == {0.0}
 
 
+@pytest.mark.parametrize("score", [True, "0.99"])
+def test_extraction_rejects_coercible_confidence_values(pdf, invoice, score):
+    response = {
+        "invoice": invoice.model_dump(mode="json"),
+        "confidences": {path: 0.99 for path in field_paths(invoice)},
+    }
+    response["confidences"]["invoice_number"] = score
+    client = Responses([response, response])
+    with pytest.raises(InvoiceExtractionError):
+        ExtractionService(client).extract(pdf)
+    assert len(client.payloads) == 2
+
+
 def test_empty_or_corrupt_pdf_is_explicit(tmp_path):
     from reportlab.pdfgen import canvas
 

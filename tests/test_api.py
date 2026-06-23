@@ -147,3 +147,23 @@ def test_unknown_offline_invoice_returns_actionable_error(client, tmp_path):
     response = client.post("/runs", files={"file": ("new.pdf", pdf.read_bytes())})
     assert response.status_code == 422
     assert response.json()["code"] == "LLM_CACHE_MISS"
+
+
+def test_provider_failure_returns_actionable_error_without_booking(client, monkeypatch):
+    import httpx
+    from anthropic import APIConnectionError
+
+    from app.services.extraction import ExtractionService
+
+    def unavailable(self, path):
+        raise APIConnectionError(
+            request=httpx.Request("POST", "https://api.anthropic.com/v1/messages")
+        )
+
+    monkeypatch.setattr(ExtractionService, "extract", unavailable)
+    response = upload(client, 46)
+    assert response.status_code == 502
+    assert "识别服务" in response.json()["detail"]
+    with client.app.state.repo.db.connection() as connection:
+        assert connection.execute("SELECT COUNT(*) FROM ap_ledger").fetchone()[0] == 0
+        assert connection.execute("SELECT COUNT(*) FROM payment_queue").fetchone()[0] == 0
