@@ -1,0 +1,16 @@
+services:
+  invoice-audit:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      DATA_DIR: /app/runtime
+      LLM_MODE: ${LLM_MODE:-replay}
+      LLM_MODEL: ${LLM_MODEL:-claude-sonnet-4-6}
+      ANTHROPIC_API_KEY: ${ANTHROPIC_API_KEY:-}
+    volumes:
+      - audit-data:/app/runtime
+    restart: unless-stopped
+
+volumes:
+  audit-data:
