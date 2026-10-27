@@ -12,11 +12,11 @@
 
 `run_id` 同时作为 LangGraph `thread_id`。检查点使用 SqliteSaver，业务数据与检查点分别保存在 `app.sqlite` 和 `checkpoints.sqlite`。`interrupt` 载荷与恢复请求先经过 Pydantic 模型校验，再以 JSON 形式写入检查点。字段核对和补交文档会清空上一轮 Finding、说明与尾差，重新加载上下文并审核。
 
-API 在调用 Command(resume=...) 前校验待办、角色和动作。运行表的版本号与 CAS 锁阻止两个请求推进同一版本。无效请求不写入决定或改变运行状态。
+API 在调用 Command(resume=...) 前校验待办、角色和动作。运行表的版本号与 CAS 锁阻止两个请求推进同一版本。无效请求不写入决定或改变运行状态。恢复执行中抛出的错误不会驳回发票：服务把恢复前的检查点复制为最新检查点（`update_state(..., as_node="__copy__")`），重新进入原 interrupt，恢复补交前的占用，并记录 `rolled_back` 审计事件。首次提交时的识别失败仍会以 REJECTED 结束并释放占用。
 
 ## 唯一性与事务
 
-占用表为 active 的发票身份 `(seller_tax_id, invoice_number)` 和 GR 建部分唯一索引。占用变更在 BEGIN IMMEDIATE 事务中执行；同一运行重复占用有效，补交文档更换身份时释放旧占用。等待补材料保留占用，驳回和取消释放。
+占用表为 active 的发票身份 `(seller_tax_id, invoice_number)` 和 GR 建部分唯一索引。占用变更在 BEGIN IMMEDIATE 事务中执行；同一运行重复占用有效，补交文档更换身份时释放旧占用。等待补材料保留占用，驳回和取消释放。补材料次数用尽后，`wait_for_info` 不再暂停，直接以 CANCELLED 结束。
 
 批准事务重新核对身份与 GR 是否由其他运行持有，然后写入应付台账、付款队列、尾差并标记 GR。`run_id` 唯一键和发票唯一索引保证幂等。人工审批不能绕过这些唯一性约束，任何写入失败都会回滚整个事务。
 

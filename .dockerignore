@@ -14,3 +14,5 @@ runtime
 dist
 build
 .DS_Store
+docs/demo.mp4
+docs/demo.gif
