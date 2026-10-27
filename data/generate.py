@@ -372,7 +372,7 @@ def cache_finding_explanations(output_dir: Path | str, cache_dir: Path | str) ->
             findings = [finding for group in RULE_GROUPS for finding in run_group(group, ctx)]
             if findings:
                 messages = list(dict.fromkeys(f.message for f in findings))
-                text = "；".join(messages)[:120]
+                text = "".join(messages)[:120]
                 client.cache_response(
                     "explain_findings",
                     explanation_payload(invoice, findings),

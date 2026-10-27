@@ -354,6 +354,14 @@ th {
   font-size: 10px;
   margin-bottom: 5px;
 }
+.finding-values {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 16px;
+  margin-top: 4px;
+  color: #7a6440;
+  font-size: 11px;
+}
 .explanation {
   color: #5a4c32;
   font-size: 12px;

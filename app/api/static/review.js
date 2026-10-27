@@ -27,12 +27,21 @@ const fieldNames = {
   total_tax: "税额合计", total_incl_tax: "价税合计", line_no: "序号", sku: "商品编码",
   description: "货物或服务名称", quantity: "数量", unit_price_excl_tax: "不含税单价",
   amount_excl_tax: "不含税金额", tax_rate: "税率", tax_amount: "税额", lines: "发票明细",
+  po_line_no: "采购行号", quantity_received: "收货数量",
 };
 function fieldLabel(path) {
   const parts = path.split(".");
   return parts[0] === "lines" && parts.length === 3
     ? `第 ${Number(parts[1]) + 1} 行 · ${fieldNames[parts[2]] || "待确认字段"}`
     : fieldNames[path] || "待确认字段";
+}
+function findingValue(value) {
+  if (value == null) return "—";
+  if (typeof value === "object")
+    return Object.entries(value)
+      .map(([key, item]) => (fieldNames[key] || key) + " " + item)
+      .join("，");
+  return String(value);
 }
 let selected = null,
   runs = [],
@@ -200,8 +209,20 @@ function renderDetail(run) {
     );
   }
   for (const finding of run.findings || []) {
-    const box = el("div", null, "finding");
-    box.append(el("code", finding.code), el("span", finding.message));
+    const box = el("div", null, "finding"),
+      values = el("div", null, "finding-values");
+    values.append(
+      el("span", "期望 " + findingValue(finding.expected)),
+      el("span", "实际 " + findingValue(finding.actual)),
+    );
+    box.append(
+      el(
+        "code",
+        finding.code + (finding.field ? " · " + fieldLabel(finding.field) : ""),
+      ),
+      el("span", finding.message),
+      values,
+    );
     root.append(box);
   }
   if (run.variance) {
@@ -213,7 +234,9 @@ function renderDetail(run) {
     root.append(
       el(
         "p",
-        "此发票未能完成识别，请检查票面信息后重新提交。",
+        run.pending
+          ? "上次提交未能完成，审核已回到当前待办，可重试或补交其他文件。"
+          : "此发票未能完成识别，请检查票面信息后重新提交。",
         "explanation",
       ),
     );
@@ -246,6 +269,16 @@ function renderTask(root, run) {
   const required =
     task.required_role === "finance_manager" ? "财务经理" : "应付会计";
   box.append(el("p", "处理角色：" + required));
+  if (task.info_rounds_left != null) {
+    box.append(
+      el(
+        "p",
+        task.info_rounds_left > 0
+          ? "还可要求补材料 " + task.info_rounds_left + " 次。"
+          : "补材料次数已用完；再次要求补材料将取消本次审核。",
+      ),
+    );
+  }
   const permitted = $("role").value === task.required_role;
   const fields = {};
   for (const path of task.fields || []) {

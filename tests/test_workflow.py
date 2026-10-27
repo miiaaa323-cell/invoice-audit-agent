@@ -250,17 +250,73 @@ def test_replacement_pdf_reextracts_and_releases_old_identity(runtime):
 def test_more_than_two_supplements_cancel_and_release(runtime):
     result = runtime.service.submit(runtime.sample(160))
     run_id = result["run_id"]
-    for round_no in range(1, 4):
+    for round_no in range(1, 3):
+        assert result["pending"]["info_rounds_left"] == 3 - round_no
         result = runtime.service.resume(
             run_id, {"action": "request_info", "note": "请重新核对数量"}, "ap_clerk"
         )
         result = runtime.service.document(run_id, runtime.sample(160))
         assert result["info_round"] == round_no
+    assert result["pending"]["info_rounds_left"] == 0
+    result = runtime.service.resume(
+        run_id, {"action": "request_info", "note": "请重新核对数量"}, "ap_clerk"
+    )
     assert result["status"] == "CANCELLED"
+    assert result["info_round"] == 2
     assert result["pending"] is None
+    assert any(row["event"] == "info_rounds_exhausted" for row in runtime.repo.audit(run_id))
     assert runtime.count("ap_ledger", run_id) == 0
     ctx = runtime.repo.load_context(result["invoice"], "other-run", runtime.policy)
     assert not ctx.duplicate_invoice and not ctx.gr_reserved_by_other
+
+
+def test_failed_replacement_pdf_keeps_waiting_and_can_be_retried(runtime):
+    result = runtime.service.submit(runtime.sample(160))
+    run_id = result["run_id"]
+    original = result["invoice"]
+    waiting = runtime.service.resume(
+        run_id, {"action": "request_info", "note": "请提供正确数量的发票"}, "ap_clerk"
+    )
+    invoice = runtime.invoice(45).model_copy(update={"invoice_number": "UNREADABLE-COPY"})
+    unknown = write_invoice_pdf(runtime.settings.data_dir / "unknown-copy.pdf", invoice)
+    with pytest.raises(CacheMissError):
+        runtime.service.document(run_id, unknown)
+    result = runtime.service.get(run_id)
+    assert result["status"] == "WAITING_INFO"
+    assert result["version"] == waiting["version"]
+    assert result["info_round"] == 0
+    assert result["pending"]["type"] == "wait_for_info"
+    assert result["invoice"] == original
+    assert result["error"]["code"] == "CacheMissError"
+    assert runtime.count("invoice_reservations", run_id) == 1
+    ctx = runtime.repo.load_context(original, "another-run", runtime.policy)
+    assert ctx.duplicate_invoice and ctx.gr_reserved_by_other
+    assert any(row["event"] == "rolled_back" for row in runtime.repo.audit(run_id))
+    result = runtime.service.document(run_id, runtime.sample(45))
+    assert result["status"] == "APPROVED"
+    assert result["info_round"] == 1
+    assert result["error"] is None
+
+
+def test_failed_approval_returns_to_the_same_task(runtime, monkeypatch):
+    result = runtime.service.submit(runtime.sample(20))
+    run_id = result["run_id"]
+
+    def unavailable(*args, **kwargs):
+        raise sqlite3.OperationalError("database is locked")
+
+    monkeypatch.setattr(runtime.repo, "finalize", unavailable)
+    result = runtime.service.resume(run_id, {"action": "approve"}, "ap_clerk")
+    with pytest.raises(sqlite3.OperationalError):
+        runtime.service.resume(run_id, {"action": "approve"}, "finance_manager")
+    monkeypatch.undo()
+    result = runtime.service.get(run_id)
+    assert result["status"] == "PROCESSING"
+    assert result["pending"]["type"] == "level2_approval"
+    assert runtime.count("ap_ledger", run_id) == 0
+    result = runtime.service.resume(run_id, {"action": "approve"}, "finance_manager")
+    assert result["status"] == "APPROVED"
+    assert runtime.count("ap_ledger", run_id) == 1
 
 
 def test_resume_after_recreating_graph_and_sqlite_connection(runtime):

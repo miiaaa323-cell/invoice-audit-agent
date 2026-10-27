@@ -13,7 +13,12 @@ from app.rules.fields import low_confidence, missing_fields
 from app.rules.registry import run_group
 from app.rules.three_way_match import variance_entry
 from app.schemas import Invoice, VarianceEntry
-from app.services.review import apply_review, make_request, validate_resume
+from app.services.review import (
+    apply_review,
+    info_rounds_exhausted,
+    make_request,
+    validate_resume,
+)
 
 
 def audited(repo, name, node):
@@ -145,7 +150,15 @@ class AuditNodes:
 
     def review(self, kind):
         def execute(state):
-            request = make_request(kind, state)
+            if kind == "wait_for_info" and (cancel := info_rounds_exhausted(state, self.policy)):
+                self.repo.log(
+                    state["run_id"],
+                    kind,
+                    "info_rounds_exhausted",
+                    {"info_round": state.get("info_round", 0)},
+                )
+                return cancel
+            request = make_request(kind, state, self.policy)
             payload = ResumePayload.model_validate(interrupt(request.model_dump(mode="json")))
             validate_resume(request, payload, state)
             result = apply_review(kind, state, payload, self.policy)

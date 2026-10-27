@@ -61,17 +61,19 @@ class AuditService:
     def list(self, status=None):
         return [self.get(row["run_id"]) for row in self.repo.list_runs(status)]
 
-    def _execute(self, run_id, value):
+    def _execute(self, run_id, value, paused=None):
         try:
             self.graph.invoke(value, self.config(run_id))
         except Exception as exc:
+            error = {"code": type(exc).__name__, "message": str(exc)}
+            if paused is not None:
+                self._rewind(run_id, paused, error)
+                raise
             state = self.graph.get_state(self.config(run_id)).values or {}
             self.repo.finalize(
                 run_id, Invoice.model_validate(state.get("invoice") or {}), "REJECTED"
             )
-            self.repo.save_run(
-                run_id, snapshot_json={"error": {"code": type(exc).__name__, "message": str(exc)}}
-            )
+            self.repo.save_run(run_id, snapshot_json={"error": error})
             raise
         state = self.graph.get_state(self.config(run_id)).values
         self.repo.save_run(
@@ -81,6 +83,17 @@ class AuditService:
             pdf_path=state["invoice_pdf_path"],
             snapshot_json=state,
         )
+
+    def _rewind(self, run_id, paused, error):
+        """A failed human step returns to the same pending task; it never rejects the invoice."""
+        self.graph.update_state(paused.config, None, as_node="__copy__")
+        self.graph.invoke(None, self.config(run_id))
+        state = self.graph.get_state(self.config(run_id)).values
+        if state.get("route") in {"AP_REVIEW", "LEVEL1_APPROVAL"}:
+            # A replacement PDF may have moved the reservation before failing.
+            self.repo.reserve(state["invoice"], run_id)
+        self.repo.log(run_id, "resume", "rolled_back", error)
+        self.repo.save_run(run_id, snapshot_json={**state, "error": error})
 
     def submit(self, pdf_path):
         run_id = str(uuid4())
@@ -117,7 +130,8 @@ class AuditService:
             raise ReviewError("无效的审核角色")
         request = ReviewRequest.model_validate(current["pending"])
         payload = ResumePayload(**body.model_dump(), role=role, document_path=document_path)
-        state = self.graph.get_state(self.config(run_id)).values
+        paused = self.graph.get_state(self.config(run_id))
+        state = paused.values
         validate_resume(request, payload, state)
         if payload.action in {"approve", "approve_with_note"}:
             context = self.repo.load_context(
@@ -134,7 +148,7 @@ class AuditService:
         self.repo.acquire_run(run_id, version)
         success = False
         try:
-            self._execute(run_id, Command(resume=payload.model_dump(mode="json")))
+            self._execute(run_id, Command(resume=payload.model_dump(mode="json")), paused)
             success = True
         finally:
             self.repo.release_run(run_id, success=success)

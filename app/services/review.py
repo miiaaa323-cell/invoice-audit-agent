@@ -49,8 +49,9 @@ def correction_result(invoice: dict, corrections: dict, confidences: dict) -> tu
     return result.model_dump(mode="json"), scores
 
 
-def make_request(kind: str, state: dict) -> ReviewRequest:
+def make_request(kind: str, state: dict, policy: Policy | None = None) -> ReviewRequest:
     invoice = state.get("invoice") or {}
+    rounds_left = (policy or Policy()).max_info_rounds - state.get("info_round", 0)
     fields = [
         f["field"]
         for f in state.get("findings", [])
@@ -74,7 +75,15 @@ def make_request(kind: str, state: dict) -> ReviewRequest:
         allowed_actions=ACTIONS[kind],
         required_role="finance_manager" if kind == "level2_approval" else "ap_clerk",
         fields=fields,
+        info_rounds_left=max(rounds_left, 0) if kind == "ap_review" else None,
     )
+
+
+def info_rounds_exhausted(state: dict, policy: Policy) -> dict | None:
+    """Another request beyond the limit cancels at once instead of asking for a PDF."""
+    if state.get("info_round", 0) < policy.max_info_rounds:
+        return None
+    return {"status": "CANCELLED", "next_step": "finalize"}
 
 
 def validate_resume(request: ReviewRequest, payload: ResumePayload, state: dict) -> None:
@@ -133,25 +142,21 @@ def apply_review(kind: str, state: dict, payload: ResumePayload, policy: Policy)
             revision=state.get("revision", 0) + 1,
         )
     elif kind == "wait_for_info":
-        info_round = state.get("info_round", 0) + 1
-        if info_round > policy.max_info_rounds:
-            update.update(status="CANCELLED", info_round=info_round)
-        else:
-            update.update(
-                invoice_pdf_path=payload.document_path,
-                info_round=info_round,
-                invoice=None,
-                context=None,
-                raw_text=None,
-                confidences={},
-                findings=[{"__reset__": True}],
-                variance=None,
-                explanation=None,
-                route=None,
-                status="PROCESSING",
-                next_step="extract_invoice",
-                revision=state.get("revision", 0) + 1,
-            )
+        update.update(
+            invoice_pdf_path=payload.document_path,
+            info_round=state.get("info_round", 0) + 1,
+            invoice=None,
+            context=None,
+            raw_text=None,
+            confidences={},
+            findings=[{"__reset__": True}],
+            variance=None,
+            explanation=None,
+            route=None,
+            status="PROCESSING",
+            next_step="extract_invoice",
+            revision=state.get("revision", 0) + 1,
+        )
     elif payload.action == "reject":
         update["status"] = "REJECTED"
     elif payload.action == "request_info":

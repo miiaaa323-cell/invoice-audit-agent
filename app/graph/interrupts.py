@@ -19,6 +19,7 @@ class ReviewRequest(BaseModel):
     allowed_actions: list[str]
     required_role: Role
     fields: list[str] = Field(default_factory=list)
+    info_rounds_left: int | None = None
 
 
 class ResumeBody(BaseModel):
